@@ -10634,11 +10634,11 @@ hr.light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(256, 256, 256, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #f4623a;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10747,4 +10747,87 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+#portfolio .portfolio_details_inner .row {
+  margin-bottom: 65px; }
+
+@media (max-width: 480px) {
+  .portfolio_details_inner .row {
+    margin-bottom: 30px; } }
+
+#portfolio .portfolio_details_inner p {
+  margin-bottom: 30px;
+  font-size: 14px; }
+
+#portfolio .portfolio_details_inner p:last-child {
+  margin-bottom: 0px; }
+
+#portfolio .portfolio_details_inner .portfolio_right_text {
+  margin-top: 50px; }
+
+#portfolio .portfolio_details_inner .portfolio_right_text h4 {
+  font-size: 20px;
+  margin-bottom: 18px; }
+
+#portfolio .portfolio_details_inner .portfolio_right_text p {
+  margin-bottom: 25px;
+  font-size: 14px; }
+
+#portfolio .portfolio_details_inner .portfolio_right_text .list li {
+  margin-bottom: 7px;
+  font-weight: normal;
+  font-size: 14px; }
+
+#portfolio .portfolio_details_inner .portfolio_right_text .list li span {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  width: 97px;
+  display: inline-block; }
+
+#portfolio .portfolio_details_inner .portfolio_right_text .list li:last-child {
+  margin-bottom: 0px; }
+
+#portfolio .portfolio_details_inner .portfolio_right_text .list li i {
+  color: #f1cd09; }
+
+.footer_area {
+  padding: 50px 0;
+  position: relative; }
+
+header.buzzhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-buzzhead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-buzzhead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.buzzhead h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.buzzhead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.buzzhead p {
+    font-size: 1.15rem;
+  }
+  header.buzzhead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.buzzhead h1 {
+    font-size: 3.5rem;
+  }
 }
