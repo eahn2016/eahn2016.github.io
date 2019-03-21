@@ -10813,7 +10813,7 @@ header.buzzhead h1 {
 
 @media (min-width: 992px) {
   header.buzzhead {
-    height: 100vh;
+    height: 90vh;
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
@@ -10830,4 +10830,46 @@ header.buzzhead h1 {
   header.buzzhead h1 {
     font-size: 3.5rem;
   }
+}
+
+/*idfs game*/
+header.idfshead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-idfshead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-idfshead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.idfshead h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.idfshead {
+    height: 90vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.idfshead p {
+    font-size: 1.15rem;
+  }
+  header.idfshead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.idfshead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
