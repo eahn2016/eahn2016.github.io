@@ -10869,6 +10869,55 @@ header.idfshead h1 {
   }
 }
 
+/*charm game*/
+header.charmhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-charmhead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-charmhead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.charmhead h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.charmhead {
+    height: 90vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.charmhead p {
+    font-size: 1.15rem;
+  }
+  header.charmhead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.charmhead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.buzzimg {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+.buzzpdf {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
 video {
   width: 100%;
   height: auto;
