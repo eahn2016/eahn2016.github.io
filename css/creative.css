@@ -491,6 +491,14 @@ mark,
   height: auto;
 }
 
+.img-fluidcharm {
+  max-width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
