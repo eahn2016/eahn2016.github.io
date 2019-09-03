@@ -1,140 +1,170 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>CHaRM</title>
-
-  <!-- Font Awesome Icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-  <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>CHaRM</title>
 </head>
 
 <body>
 
-	<!--================ Start Header Area =================-->
-  <header class="charmhead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">CHaRM iOS Application</h1>
-          <hr class="divider my-4">
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white font-weight-light mb-5">
+    <h1>
+        CHaRM iOS App
+    </h1>
+
+    <div class = "container marginBot175">
+        <!-- change marginbot175 to marginBot100 if take out button -->
+        <p>
             Keeping Track of Recycled Materials for CHaRM
-          </p>
-      </div>
+        </p>
+
+        <!-- <br class = "longBreak"> -->
+
+        <!-- <div class = "buttonMargin"> -->
+            <a class = "buttonHome" href = "home.html">
+                Home
+            </a>
+
+<!--         <hr class = "short"/>
+        </div> -->
     </div>
-  </header>
-	<!--================ End Header Area =================-->
 
-	<!--================Start Portfolio Details Area =================-->
-	<section class="portfolio_details_area section_gap">
-    <div class="container">
-      <div class="portfolio_details_inner mt-5">
+<!-- ********************************** Introduction ******************************* -->
 
-        <div class="row mb-5">
-          <div class="col-lg-12">
-            <div class="portfolio_right_text mt-30">
-              <h3 class="text-uppercase mb-3 text-center">Introduction</h3>
-              <p>
-                The Center for Hard to Recycle Materials (CHaRM) needs an effective way to track the number of people who visit the recycling facility and the materials they bring in order to receive funding from the city of Atlanta. Their previous method, recording with pen and paper, overburdened the small number of staff. My team, consisting of me, Pranay Kumar, Adya Moti, Arianna Pathammavong, and Annette Cochran, will create an iOS application for CHaRM and its visitors that facilitates this data collection by providing an intuitive user interface for visitors and admin account functionality while providing access to raw data and data visualization features. The application will also collect zip code data which will show areas where visitors predominantly travel from. This provides evidence for CHaRM to receive funding from the city of Atlanta to open a second facility in a popular location. In addition, the application will serve as a platform for communication between CHaRM and its visitors, including up-to-date facility closures and information about recycling. This project is a <span style="color: #ff0000"><b>work in progress</b></span> and will continuously be updated.
-              </p>
-            </div>
-          </div>
+    <hr class = "short"/>
+
+    <h2>
+        Introduction
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            My Junior Design team chose CHaRM (the Center for Hard to Recycle Materials) for our project. CHaRM is a "<span class = "emphasize">permanent drop-off facility that aims to improve our environmental health by encouraging reuse and diverting thousands of pounds of household hazardous waste, bulky trash and other hard to recycle items from Metro-Atlanta landfills and water systems</span>". The employees needed an effective way to track the number of people who visit the recycling facility and the materials they bring in order to receive funding from the city of Atlanta.
         </div>
+    </div>
 
-        <div class="row mb-5">
-          <div class ="col-lg-6">
-            <h3 class="text-uppercase mb-3 text-center">User Research</h3>
-            <div class="portfolio_right_text mt-30">
-              <h5 class = "text-center">Surveys</h5>
-              <p>
-                The goal of the survey is to learn more about their experience at CHaRM, such as how often they visit and the types of materials they bring with them to recycle. Knowing the process that they go through every time they visit CHaRM will help us to design our app in such a way that makes the entire process easier and more streamlined. For example, knowing whether the majority of people coming to CHaRM are are new or repeat visitors will help us tailor the features of the application accordingly. One-time visitors would benefit from a map of the facility and would not want to make an account, while repeat visitors would benefit from an account to keep track of their recycling and reduce the amount of data entry in the application each time they visit the facility.
-              </p>
-              <p>
+<!-- ********************************** The Problem ******************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        The Problem
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <div>
+                CHaRM's previous method of recording the materials that were brought in to CHaRM with pen and paper overburdened the small number of staff. With the data from the facility's users, CHaRM would be able to receive more funding from the city of Atlanta in order to open a second facility in another popular location.
+            </div>
+        </div>
+    </div>
+
+<!-- ********************************** User Research ****************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        User Research
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-6 aboutBox">
+            <h3>
+                <img class = "test" src="img/portfolio/thumbnails/survey.svg" alt="">
+                <div class = "break1">
+                    Surveys
+                </div>
+            </h3>
+            <div>
+                The goal of the survey is to learn more about their experience at CHaRM, such as how often they visit and the types of materials they bring with them to recycle. Knowing the process that they go through every time they visit CHaRM will help us to design our app in such a way that makes the entire process easier and more streamlined.
+            </div>
+            <div class = "break2">
                 We also wanted to know more about user demographics, such as education level and age. This information is important to know when designing our application because their level of education and age may correlate to how comfortable they are with technology and using apps on their phones. Level of education would also inform our decisions of what facts and statistics about recycling we display on the application. Also, if we can identify a trend between education level and the users who come to recycle, it will help us to better identify our primary users. Similarly, knowing their age will also help us gauge our users’ familiarity with technology and how they will interact with the app, while also helping us better identify our primary users.
-              </p>
-              <p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsKCULboH9GR7CKxZ-SkiwNkp1r64wfZ5wK7MHrg7caytlpg/viewform?usp=pp_url" target="_blank">Click here to view the survey
-                </a>
-              </p>
-              <p>
-                <a href="https://drive.google.com/drive/folders/1sGneLpCqRQb0oOjgTykpToIwjOOXz18H" target="_blank"> Click here to see users testing out the paper prototype
-                </a>
-              </p>
             </div>
-          </div>
-
-          <div class ="col-lg-6">
-            <h3 class="text-uppercase mb-3 text-center">Survey Results</h3>
-            <div class="portfolio_right_text mt-30">
-              <a class="popfolio-box" href="img/portfolio/thumbnails/charmsurveywhy.png">
-                <img class="img-fluid" src="img/portfolio/thumbnails/charmsurveywhy.png">
-              </a>
-              <a class="popfolio-box" href="img/portfolio/thumbnails/charmsurveyoften.png">
-                <img class="img-fluid" src="img/portfolio/thumbnails/charmsurveyoften.png">
-              </a>
-              <a class="popfolio-box" href="img/portfolio/thumbnails/charmsurveymobile.png">
-                <img class="img-fluid" src="img/portfolio/thumbnails/charmsurveymobile.png">
-              </a>
-              <a class="popfolio-box" href="img/portfolio/thumbnails/charmsurveyage.png">
-                <img class="img-fluid" src="img/portfolio/thumbnails/charmsurveyage.png">
-              </a>
+        </div>
+        <div class = "col-lg-6 aboutBox">
+            <h3>
+                <img class = "test" src="img/portfolio/thumbnails/result.svg" alt="">
+                <div class = "break1">
+                    Survey Results
+                </div>
+            </h3>
+            <div class = "break2">
+                We found out that the majority of people who recycled at CHaRM went alone. A smaller group of people went with their families.
             </div>
-          </div>
+            <div class = "break2">
+                More than 50% of the people who visits CHaRM go there once or less times a month. This suggested that we build the application so that it is still useful when the users are not at the facility.  This lead us to creating a Fun Facts tab.
+            </div>
+            <div class = "break2">
+                Around 80% of the people who visit CHaRM use an iOS device. This lead us to focus on creating an iOS application.
+            </div>
+            <div class = "break2">
+                From the survey results, the ages of people who visit CHaRM ranged from 25 to 74. This suggested that we create an application that is accessible to all people.
+            </div>
         </div>
-      </div>
     </div>
 
-      <div class="row mb-5">
-        <div class ="col-lg-12">
-          <h3 class="text-uppercase mb-3 text-center">Digital Prototype</h3>
-              <a class="popfolio-box" href="img/portfolio/thumbnails/charmprototype.png">
-                <img class="img-fluidcharm" src="img/portfolio/thumbnails/charmprototype.png">
-              </a>
+<!-- ********************************* The Solution ******************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        The Solution
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            My team decided to create an iOS application for CHaRM and its visitors that facilitates this data collection by providing an intuitive user interface for visitors and admin account functionality while providing access to raw data and data visualization features. The application also collects zip code data which will show areas where visitors predominantly travel from. In addition, the application serves as a platform for communication between CHaRM and its visitors, including up-to-date facility closures and information about recycling.
         </div>
-      </div>
-
-      <div class="container text-center mb-5">
-        <a class="btn btn-secondary btn-xl js-scroll-trigger" href="https://github.com/pkumar03/CHaRM" target="_blank">View on Github</a>
-      </div>
-
     </div>
-  </section>
 
-  <footer class="bg-light py-5">
-    <div class="container text-center">
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="index.html">Home</a>
+<!-- ****************************** Digital Prototype ****************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        Digital Prototype
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12-img">
+            <a href="img/portfolio/thumbnails/charmprototype.png">
+                <img class = "persona" src="img/portfolio/thumbnails/charmprototype.png">
+            </a>
+        </div>
     </div>
-  </footer>
 
-    <!--================End Portfolio Details Area =================-->
+<!-- ********************************* Conclusion ********************************** -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <hr class = "short"/>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <h2>
+        Conclusion
+    </h2>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <div>
+                Throughout this entire project, my team and I learned a lot about working closely with a client in order to create a product that was both feasible for us within the time constraints and had the features that the client wanted. Also, being able to interact with possible users of the application gave me a brand new insight when working on the prototype.
+            </div>
+            <div class = "break2">
+                Personally, I learned how to change the prototype that I worked on with Arianna based on the results from user research. This prototype was then used as a reference for the final product.
+            </div>
+        </div>
+    </div>
+
+<!-- ******************************* Bottom of Screen ****************************** -->
+
+    <div class = "container marginBot175">
+        <a class = "buttonHome" href = "home.html">
+            Home
+        </a>
+    </div>
+    <div class = "credits">
+        <i>Icons from <a class = "creditslink" href = "https://icons8.com" target="_blank">icons8</a></i>
+    </div>
 </body>
 
 </html>
+
