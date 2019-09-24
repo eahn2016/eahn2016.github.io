@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-camera position="0 .75 -3"></a-camera>
+
+            <a-assets>
+                <img id="normal" src="normal.jpg">
+                <img id="brick" src="brick.jpg">
+                <img id="grass" src="grass.jpg">
+                <a-asset-item id="bomb" src="https://raw.githubusercontent.com/eahn2016/assets/master/simple_bomb/scene.gltf"></a-asset-item>
+                <a-asset-item id="bomberman" src="https://raw.githubusercontent.com/eahn2016/assets/master/astronaut/scene.gltf"></a-asset-item>
+                <a-asset-item id="monster" src="https://raw.githubusercontent.com/eahn2016/assets/master/monster/scene.gltf"></a-asset-item>
+                <img id="original" src="original_image.jpg">
+                <img id="sky" src="sky.jpg">
+            </a-assets>
+
+            <a-text value="Bomberman(NES)" position="-9 7 -30" color="black" scale="10 10 10"></a-text>
+            <a-text value="Eugene Ahn" position="-4 4 -30" color="black" scale="7 7 7"></a-text>
+            <a-image src="#original" position="0 15 -30" scale="10 10 10"></a-image>
+
+            <!-- front wall -->
+            <a-box material="src: #normal" position="-6 0 -2" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-5 0 -2" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="-4 0 -2" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-3 0 -2" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="-2 0 -2" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-1 0 -2" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="0 0 -2" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="1 0 -2" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="2 0 -2" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="3 0 -2" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="4 0 -2" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="5 0 -2" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="6 0 -2" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+
+            <!-- back wall -->
+            <a-box material="src: #normal" position="-6 0 -14" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-5 0 -14" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="-4 0 -14" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-3 0 -14" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="-2 0 -14" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-1 0 -14" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="0 0 -14" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="1 0 -14" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="2 0 -14" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="3 0 -14" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="4 0 -14" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="5 0 -14" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+            <a-box material="src: #normal" position="6 0 -14" rotation="0 0 0" width ="1" height = "1" color="#D3D3D3"></a-box>
+
+            <!-- left wall -->
+            <a-box material="src: #normal" position="-6 0 -3" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -4" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -5" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -6" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-6 0 -13" rotation="0 0 0" width ="1" height = "1"></a-box>
+
+            <!-- right wall -->
+            <a-box material="src: #normal" position="6 0 -3" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -4" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -5" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -6" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="6 0 -13" rotation="0 0 0" width ="1" height = "1"></a-box>
+
+            <!-- middle indestructable blocks -->
+            <a-box material="src: #normal" position="4 0 -4" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="4 0 -6" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="4 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="4 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="4 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="2 0 -4" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="2 0 -6" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="2 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="2 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="2 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="0 0 -4" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="0 0 -6" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="0 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="0 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="0 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-2 0 -4" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-2 0 -6" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-2 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-2 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-2 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-4 0 -4" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-4 0 -6" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-4 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-4 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #normal" position="-4 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+
+            <!-- bricks -->
+            <a-box material="src: #brick" position="-3 0 -13" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-1 0 -13" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="1 0 -13" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="2 0 -13" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="3 0 -13" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-1 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="3 0 -12" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-5 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-4 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-3 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="0 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="1 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="3 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="4 0 -11" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="5 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="3 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="1 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-1 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-3 0 -10" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="4 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="3 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="1 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="0 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-2 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-4 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-5 0 -9" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-5 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-3 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-1 0 -8" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-5 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-3 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="-2 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="0 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="1 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="2 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="3 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+            <a-box material="src: #brick" position="5 0 -7" rotation="0 0 0" width ="1" height = "1"></a-box>
+
+            <!-- bombs -->
+            <a-gltf-model src="#bomb" position="3 -.1 -6" scale=".2 .2 .2" ></a-gltf-model>
+            <a-gltf-model src="#bomb" position="-1 -.1 -7" scale=".2 .2 .2" ></a-gltf-model>
+
+            <!-- bomberman -->
+            <a-gltf-model src="#bomberman" position="1 -.5 -5" rotation="0 -90 0" scale=".05 .05 .05" ></a-gltf-model>
+
+            <!-- monsters -->
+            <a-gltf-model src="#monster" position="3 .5 -5" rotation="0 -90 0" scale=".25 .25 .25" ></a-gltf-model>
+            <a-gltf-model src="#monster" position="-1 .5 -4" rotation="0 180 0" scale=".25 .25 .25" ></a-gltf-model>
+
+            <!-- grass-->
+            <a-plane material="src: #grass" position="0 -.5 -8" rotation="-90 0 0" width="13" height="13" color="#7BC8A4"></a-plane>
+            <a-sky src="#sky"></a-sky>
+        </a-scene>
+    </body>
+</html>
