@@ -113,8 +113,14 @@ div.container {
     transition-duration: 0.4s;
 }
 
+.col-lg-3-img {
+    padding: 1%;
+    width: 25%;
+    margin: auto;
+}
+
 .col-lg-4 {
-    padding: 30px;
+    padding: 2%;
     width: 33.33%;
 }
 
@@ -122,6 +128,11 @@ div.container {
     padding: 30px;
     width: 33%;
     margin: auto;
+}
+
+.temp-col-4 {
+    padding-left: 2%;
+    width: 29.33%;
 }
 
 .col-lg-6 {
@@ -146,6 +157,11 @@ div.container {
     width: 80%;
     margin: auto;
 }
+/*
+.col-lg-12-no-padding {
+    width: 50%;
+    margin-left: auto;
+}*/
 
 /*@media (min-width: 576px) {
     .col-sm-6 {
@@ -158,9 +174,19 @@ div.container {
 .row {
     display: -ms-flexbox;
     display: flex;
+    display: -webkit-flex;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 3em;
+}
+
+.rowSmall {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 1%;
 }
 
 .img-fluid {
@@ -168,6 +194,11 @@ div.container {
     height: auto;
     opacity: 1;
     transition: opacity .2s ease-in-out;
+}
+
+.img-296 {
+    height: 296px;
+    width: auto;
 }
 
 .box {
@@ -228,6 +259,13 @@ div.container {
     margin-left: 30px;
 }
 
+.imgBox {
+    background-color: white;
+    font-weight: 300;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
 .title {
     font-weight: 500;
     font-size: 20px;
@@ -237,6 +275,13 @@ div.container {
     text-align: center;
     font-size: 12px;
     font-weight: 300;
+}
+
+div.description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 1em;
 }
 
 .credits {
@@ -300,8 +345,8 @@ video.idfs {
 }
 
 .emphasize {
-    color: #daa592;
-    /*font-weight: 00;*/
+    color: #a79aff;
+    font-weight: 700;
 }
 
 .success {

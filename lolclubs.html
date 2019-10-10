@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>League of Legends Clubs</title>
+</head>
+
+<body>
+
+    <h1>
+        LoL Clubs
+    </h1>
+
+    <div class = "container marginBot175">
+        <!-- change marginbot175 to marginBot100 if take out button -->
+        <p>
+            Revamping clubs for League of Legends - a UX case study
+        </p>
+
+        <!-- <br class = "longBreak"> -->
+
+        <!-- <div class = "buttonMargin"> -->
+            <a class = "buttonHome" href = "index.html">
+                Home
+            </a>
+
+<!--         <hr class = "short"/>
+        </div> -->
+    </div>
+
+<!-- ********************************** Introduction ******************************* -->
+
+    <hr class = "short"/>
+
+    <h2>
+        Introduction
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            In 2016, Riot Games launched clubs as a way for League of Legends players to make friends and interact with other players. Joining a club provided a unique way of expressing a group of people with club tags. Since I am a passionate League of Legends player, I committed myself to revamping League of Legends clubs to increase social activity within the client. Everything in this project is done solely by me and does not represent the League of Legends brand.
+        </div>
+    </div>
+
+<!-- ********************************** The Problem ******************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        The Problem
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            Clubs have had minimal support from Riot with the only update within the past three years being raising the maximum cap of members from 50 to 100. Clubs so far have only been valued as a way to show a secondary "in game name" with the unique club tags. Many clubs have little to no internal activity, and other than obtaining the club tag, there is no other incentive to join one.
+        </div>
+    </div>
+
+<!-- ********************************** User Research ****************************** -->
+
+    <hr class = "short"/>
+
+    <h2 class = "sectionBox">
+        User Research
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <div>
+                A recent post on the League of Legends subreddit about the current state of clubs has brought up a discussion of what features people would like to see implemented and complaints that they have about clubs. I used this post, along with opinions from friends that play League of Legends, to conduct my user research. You can view this post
+                <a class = "creditlink" href="https://www.reddit.com/r/leagueoflegends/comments/covk54/clubs_are_the_opposite_of_what_they_are_ment_to_be/">
+                    here</a>.
+            </div>
+            <div class = "break2">
+                The top two comments on the reddit post state that
+            </div>
+            <div class = "break2">
+                <span class = "emphasize">"all the clubs i'm in have almost zero chatting going even when they are fully populated"</span>
+            </div>
+
+            <div class = "break2">
+                <span class = "emphasize">"Got to say, Riot's biggest failure is the social aspect of this game. I've been playing for 4 years now I think.. I can't recall the last time I actually chatted with anybody in this game."</span>
+            </div>
+            <div class = "break2">
+                Clubs have been promoted as a "social hub [that] facilitates friendships and naturally provides a place to organize games.", but according to testimonies from the comment chains, clubs have not been used for that purpose.
+            </div>
+            <div class = "break2">
+                People also voiced out their opinion on wanting a way to search for clubs. "Clubs need to be searchable and clubs need an option to allow you to join openly without an invite."
+            </div>
+            <div class = "break2">
+                After interviewing my friends(who are all active League of Legends players) on their perspective of clubs, I found out that a vast majority of them joined a club for the club tag. None of them could remember the last time they actually chatted with another via the club chat function.
+            </div>
+
+        </div>
+    </div>
+
+<!-- ********************************* Brainstorming ******************************* -->
+
+    <hr class = "short"/>
+
+    <h2>
+        Brainstorming
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            I decided to create a list of the current and possible features that the redesign could have. I made sure to make sure to brainstorm features that would facilitate social interaction. This redesign is from the point of view of any club member rather than the owner of the club who would have access to certain settings.
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-lg-12">
+            <a href="img/portfolio/lolclubs/lolclubsBrainstorming.jpg">
+                <img class = "persona" src="img/portfolio/lolclubs/lolclubsBrainstorming.jpg">
+            </a>
+        </div>
+    </div>
+
+<!-- **************************** Current Client *********************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        Current Club UI
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-6-no-padding">
+            <a href="img/portfolio/lolclubs/homeOriginal.png">
+                <img class = "persona" src="img/portfolio/lolclubs/homeOriginal.png">
+            </a>
+            <div class = "description">
+                Home tab for clubs
+            </div>
+        </div>
+
+        <div class = "col-lg-6-no-padding">
+            <a href="img/portfolio/lolclubs/homeOriginal.png">
+                <img class = "persona" src="img/portfolio/lolclubs/membersOriginal.png">
+            </a>
+            <div class = "description">
+                Members tab for clubs
+            </div>
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <div>
+                Currently, clubs are very bare. The Home tab only has a message of the day, while the Members tab shows a list of members in that club. Clubs offer no interactivity for its members, giving no incentive for members to engage with the community.
+            </div>
+            <div class = "break2">
+                I decided to implement some of the features from my brainstorming to make clubs something that encourages interaction with other members on a daily basis.
+            </div>
+        </div>
+    </div>
+
+<!-- ****************************** LowFi Prototype ******************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        Low-Fidelity Prototype
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12-img">
+            <a href="img/portfolio/lolclubs/Wireframe.png">
+                <img class = "persona" src="img/portfolio/lolclubs/Wireframe.png">
+            </a>
+        </div>
+    </div>
+
+<!-- ****************************** Digital Prototype ****************************** -->
+
+    <hr class = "short"/>
+
+    <h2>
+        Digital Prototype
+    </h2>
+
+<!-- Home !-->
+
+    <div class = "row">
+        <div class = "col-lg-6-no-padding">
+            <a href="img/portfolio/lolclubs/homeAboutMarker.png">
+                <img class = "persona" src="img/portfolio/lolclubs/homeAboutMarker.png">
+            </a>
+        </div>
+
+        <div class = "col-lg-6-no-padding">
+            <a href="img/portfolio/lolclubs/homeMissionsMarker.png">
+                <img class = "persona" src="img/portfolio/lolclubs/homeMissionsMarker.png">
+            </a>
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <h3>
+                Home
+            </h3>
+            The about tab now includes a description of the club, along with the officers and the owner (1) so that new/interested members can contact them directly.
+            <div class = "break2">
+                Solo missions are already incorporated into League of Legends. However, with the introduction of Weekly Missions, clubs have an incentive to play together and work towards a common goal. Accomplishing a mission grants all members of the club a reward such as skin shards, along with club aesthetic rewards such as banners/flags. (2) provides a description of the current mission and shows the progress around the mission icon.
+            </div>
+            <div class = "break2">
+                (3) adds a competitive element to Weekly Missions so that members are further incetivized to compete with others within the club for greater rewards. This section shows the top 3 players who have contributed the most towards the current mission.
+            </div>
+            <div class = "break2">
+                (4) shows the user's contribution towards the mission. This is for members that are not within the top 3 contributors and would like to see what their current progress is.
+            </div>
+        </div>
+    </div>
+
+<!-- Members !-->
+
+    <div class = "row">
+        <div class = "col-lg-12-img">
+            <a href="img/portfolio/lolclubs/membersMarker.png">
+                <img class = "persona" src="img/portfolio/lolclubs/membersMarker.png">
+            </a>
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <h3>
+                Members
+            </h3>
+            Previously, there were a members, pending, and notifications tab for the members section of the club. (1) condenses this down into a members and pending tab. The pending tab would include all pending invitations and requests to join the club.
+        </div>
+    </div>
+
+<!-- Highlights !-->
+
+    <div class = "row">
+        <div class = "col-lg-6-no-padding">
+            <a href="img/portfolio/lolclubs/highlightsMarker.png">
+                <img class = "persona" src="img/portfolio/lolclubs/highlightsMarker.png">
+            </a>
+        </div>
+
+        <div class = "col-lg-6-no-padding">
+            <a href="img/portfolio/lolclubs/highlightsVideo.png">
+                <img class = "persona" src="img/portfolio/lolclubs/highlightsVideoMarker.png">
+            </a>
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <h3>
+                Highlights
+            </h3>
+            The highlights tab allows users to directly upload clips from their replays. Similar to Youtube and Reddit, users are able to view, comment, and "like" or "dislike" highlights.
+            <div class = "break2">
+                Each row (1) contains the champion that the uploader was playing, their summoner name, the title of the clip, the date that the highlight was uploaded, and the "popularity" score. This score is created by subtracting the number of "thumbs up" by the number of "thumbs down".
+            </div>
+            <div class = "break2">
+                (2) allows users to upload their highlights and search up a highlight by typing in a champion or player name.
+            </div>
+            <div class = "break2">
+                (3) is where users are able to vote on the highlights by clicking the "thumbs up" or "thumbs down" emotes. These emotes are from the League of Legends game.
+            </div>
+            <div class = "break2">
+                (4) is where users can type in their comments. It shows the summoner icon, player name, and the comment.
+            </div>
+        </div>
+    </div>
+
+<!-- Chat !-->
+
+    <div class = "row">
+        <div class = "col-lg-12-img">
+            <a href="img/portfolio/lolclubs/chatMarker.png">
+                <img class = "persona" src="img/portfolio/lolclubs/chatMarker.png">
+            </a>
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <h3>
+                Chat
+            </h3>
+            Although clubs already have a chat feature, my rendition allows the owner and officers to create channels so that members can have conversations in a channel that they care about. (1) shows what channel that you're currently on by the gold border around the channel and shows the channels where you have notifications.
+            <div class = "break2">
+                (2) is where the conversations take place. Users can easily type and talk to one another.
+            </div>
+        </div>
+    </div>
+
+<!-- LFG !-->
+
+    <div class = "row">
+        <div class = "col-lg-12-img">
+            <a href="img/portfolio/lolclubs/lfgMarker.png">
+                <img class = "persona" src="img/portfolio/lolclubs/lfgMarker.png">
+            </a>
+        </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <h3>
+                Looking for game
+            </h3>
+            The Looking for game or LFG tab is for club members to easily join games other club members have created. (1) shows the player who is hosting the game, the game mode, the game type, and the current number of players in the lobby. If the player icons are green, that means that there is space left for others to join. If the icons are red, that means that the lobby is full.
+        </div>
+    </div>
+
+<!-- ********************************* Entire Design ******************************* -->
+
+    <hr class = "short"/>
+
+    <h2>
+        Digital Prototype
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/homeAbout.png">
+                <img class = "persona" src="img/portfolio/lolclubs/homeAbout.png">
+            </a>
+        </div>
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/homeMissions.png">
+                <img class = "persona" src="img/portfolio/lolclubs/homeMissions.png">
+            </a>
+        </div>
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/highlights.png">
+                <img class = "persona" src="img/portfolio/lolclubs/highlights.png">
+            </a>
+        </div>
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/highlightsVideo.png">
+                <img class = "persona" src="img/portfolio/lolclubs/highlightsVideo.png">
+            </a>
+        </div>
+    </div>
+
+    <div class = "rowSmall">
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/members.png">
+                <img class = "persona" src="img/portfolio/lolclubs/members.png">
+            </a>
+        </div>
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/chatGeneral.png">
+                <img class = "persona" src="img/portfolio/lolclubs/chatGeneral.png">
+            </a>
+        </div>
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/chatSchool.png">
+                <img class = "persona" src="img/portfolio/lolclubs/chatSchool.png">
+            </a>
+        </div>
+        <div class = "col-lg-3-img">
+            <a href="img/portfolio/lolclubs/lfg.png">
+                <img class = "persona" src="img/portfolio/lolclubs/lfg.png">
+            </a>
+        </div>
+    </div>
+
+<!--     <div class = "row">
+        <div class = "col-lg-12-img">
+            <a href="img/portfolio/lolclubs/prototype2.png">
+                <img class = "persona" src="img/portfolio/lolclubs/prototype2.png">
+            </a>
+        </div>
+    </div> -->
+
+<!-- ********************************* Conclusion ********************************** -->
+
+    <hr class = "short"/>
+
+    <h2 class = "sectionBox">
+        Conclusion
+    </h2>
+
+    <div class = "row">
+        <div class = "col-lg-12 textBox">
+            <div>
+                Overall, I believe that adding in these elements to clubs will allow for a greater social experience. League of Legends has already helped me bond with so many other people and I would like to see others be able to do the same.
+            </div>
+        </div>
+    </div>
+
+<!-- ******************************* Bottom of Screen ****************************** -->
+
+    <!-- <hr class = "short"/> -->
+
+    <!-- <div class = "longBreak"/> -->
+
+    <div class = "container marginBot175">
+        <a class = "buttonHome" href = "index.html">
+            Home
+        </a>
+    </div>
+</body>
+
+</html>
+
