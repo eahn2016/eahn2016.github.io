@@ -361,3 +361,8 @@ video.idfs {
     width: 25%;
     height: auto;
 }
+
+div.bunny {
+    margin: 0;
+    text-align: center;
+}
