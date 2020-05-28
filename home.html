@@ -1,0 +1,124 @@
+<!--
+To fix:
+1. Card decks not equal heights in different rows
+2. Add Navbar for smaller screens
+4. New title fonts? -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>
+      Eugene Ahn
+    </title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> -->
+      <!-- </button> -->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+                <a class="nav-link home mr-2" href="">
+                  HOME
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link resume" href = "Ahn_Eugene_Resume.pdf" target="_blank">
+                  RESUME
+                </a>
+            </li>
+        </ul>
+      </div>
+     </nav>
+
+     <!-- Title -->
+    <div class = "padding-left padding-top">
+      <h1>
+        EUGENE AHN
+      </h1>
+      <p class="title-caption">
+        UX Designer
+      </p>
+    </div>
+
+    <!-- Projects -->
+    <img src="images/Background/topWave.png" class = "img-fluid" />
+
+    <div class = "greenBackground padding-bottom">
+      <div class = "row mb-5">
+        <h1 class = "padding-left lightText">
+          PROJECTS
+        </h1>
+      </div>
+
+      <div class = "row">
+        <div class = "card-deck padding-left padding-right">
+          <div class = "col-lg-4 col-sm-6 my-5">
+            <a class = "card lightText pt-5 mx-auto" href = "lolclubs.html">
+              <img class = "img-fluid card-img-top" src="images/LoL-clubs/lolclubs-icon.png" alt="">
+              <div class = "card-body d-flex flex-column">
+                <div class = "project-name mt-auto">
+                  League of Legends Clubs
+                </div>
+                <div class = "caption">
+                  UX Case Study
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class = "col-lg-4 col-sm-6 my-5">
+            <a class = "card lightText pt-5 mx-auto" href = "buzzfoods.html">
+              <img class = "img-fluid card-img-top" src="images/BuzzFoods/buzzfoods-icon.png" alt="">
+              <div class = "card-body d-flex flex-column">
+                <div class = "project-name mt-auto">
+                  BuzzFoods
+                </div>
+                <div class = "caption">
+                  UI/UX
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class = "col-lg-4 col-sm-6 my-5">
+            <a class = "card lightText pt-5 mx-auto" href = "charm.html">
+              <img class = "img-fluid card-img-top" src="images/CHaRM/charm-icon.png" alt="">
+              <div class = "card-body d-flex flex-column">
+                <div class = "project-name mt-auto">
+                  CHaRM
+                </div>
+                <div class = "caption">
+                  UI/UX, iOS Development
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class = "col-lg-4 col-sm-6 my-5">
+            <a class = "card lightText pt-5 mx-auto" href = "idfs.html">
+              <img class = "img-fluid card-img-top" src="images/IDFS/idfs-icon.png" alt="">
+              <div class = "card-body d-flex flex-column">
+                <div class = "project-name mt-auto">
+                  I Died on a Full Stomach
+                </div>
+                <div class = "caption">
+                  Game
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

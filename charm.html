@@ -1,170 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>
+      CHaRM
+    </title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>CHaRM</title>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+                <a class="nav-link home mr-2" href="home.html">
+                  HOME
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link resume" href = "Ahn_Eugene_Resume.pdf" target="_blank">
+                  RESUME
+                </a>
+            </li>
+        </ul>
+      </div>
+     </nav>
 
-<body>
-
-    <h1>
-        CHaRM iOS App
-    </h1>
-
-    <div class = "container marginBot175">
-        <!-- change marginbot175 to marginBot100 if take out button -->
-        <p>
-            Keeping Track of Recycled Materials for CHaRM
-        </p>
-
-        <!-- <br class = "longBreak"> -->
-
-        <!-- <div class = "buttonMargin"> -->
-            <a class = "buttonHome" href = "index.html">
-                Home
-            </a>
-
-<!--         <hr class = "short"/>
-        </div> -->
+    <!-- Title -->
+    <div class = "padding-left padding-top">
+      <h1>
+        CHaRM iOS Application
+      </h1>
+      <p class="title-caption">
+        Keeping Track of Recycled Materials for CHaRM
+      </p>
     </div>
 
-<!-- ********************************** Introduction ******************************* -->
+    <!-- Introduction -->
+    <img src="images/Background/topWave.png" class = "img-fluid" />
 
-    <hr class = "short"/>
+    <div class = "greenBackground">
+        <h1 class = "padding-left lightText">
+          INTRODUCTION
+        </h1>
 
-    <h2>
-        Introduction
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            My Junior Design team chose CHaRM (the Center for Hard to Recycle Materials) for our project. CHaRM is a "<span class = "emphasize">permanent drop-off facility that aims to improve our environmental health by encouraging reuse and diverting thousands of pounds of household hazardous waste, bulky trash and other hard to recycle items from Metro-Atlanta landfills and water systems</span>". The employees needed an effective way to track the number of people who visit the recycling facility and the materials they bring in order to receive funding from the city of Atlanta.
+      <div class = "row mt-5">
+        <div class = "center">
+          <p class = "lightText textBox50 paragraphFont mb-5">
+              My Junior Design team chose CHaRM (the Center for Hard to Recycle Materials) for our project. CHaRM is a <span class = "emphasize">permanent drop-off facility that aims to improve our environmental health by encouraging reuse and diverting thousands of pounds of household hazardous waste, bulky trash and other hard to recycle items from Metro-Atlanta landfills and water systems"</span>. The employees needed an effective way to track the number of people who visit the recycling facility and the materials they bring in order to receive funding from the city of Atlanta.
+          </p>
         </div>
+      </div>
+    <img src="images/Background/blackWaveTop.png" class = "img-fluid" />
     </div>
 
-<!-- ********************************** The Problem ******************************** -->
+    <!-- Problem -->
+    <div class = "blackBackground">
+        <h1 class = "padding-left lightText">
+          THE PROBLEM
+        </h1>
 
-    <hr class = "short"/>
-
-    <h2>
-        The Problem
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            <div>
-                CHaRM's previous method of recording the materials that were brought in to CHaRM with pen and paper overburdened the small number of staff. With the data from the facility's users, CHaRM would be able to receive more funding from the city of Atlanta in order to open a second facility in another popular location.
+        <div class = "row mt-5">
+            <div class = "center">
+                <p class = "lightText textBox50 mb-5">
+                    CHaRM's previous method of recording the materials that were brought in to CHaRM with pen and paper overburdened the small number of staff. With the data from the facility's users, CHaRM would be able to receive more funding from the city of Atlanta in order to open a second facility in another popular location.
+                </p>
             </div>
         </div>
+        <img src="images/Background/lightWaveTop.png" class = "img-fluid" />
     </div>
 
-<!-- ********************************** User Research ****************************** -->
+    <!-- User Research -->
+    <div class = "lightBackground padding-bottom">
+      <h1 class = "padding-left darkText">
+        USER RESEARCH
+      </h1>
 
-    <hr class = "short"/>
+      <div class = "center">
+        <div class = "textBox50 paragraphFont">
+          <div class = "my-3">
+            <h2>
+              SURVEYS
+            </h2>
+          </div>
 
-    <h2>
-        User Research
-    </h2>
+          <div class = "mb-3">
+            The goal of the survey is to learn more about their experience at CHaRM, such as how often they visit and the types of materials they bring with them to recycle. Knowing the process that they go through every time they visit CHaRM will help us to design our app in such a way that makes the entire process easier and more streamlined.
+          </div>
 
-    <div class = "row">
-        <div class = "col-lg-6 aboutBox">
-            <h3>
-                <img class = "test" src="img/portfolio/thumbnails/survey.svg" alt="">
-                <div class = "break1">
-                    Surveys
+          <div class = "mb-3">
+            We also wanted to know more about user demographics, such as education level and age. This information is important to know when designing our application because their level of education and age may correlate to how comfortable they are with technology and using apps on their phones. Level of education would also inform our decisions of what facts and statistics about recycling we display on the application. Also, if we can identify a trend between education level and the users who come to recycle, it will help us to better identify our primary users. Similarly, knowing their age will also help us gauge our users’ familiarity with technology and how they will interact with the app, while also helping us better identify our primary users.
+          </div>
+
+          <div class = "my-3">
+            <h2>
+              SURVEY RESULTS
+            </h2>
+          </div>
+
+          <div class = "mb-3">
+            We found out that the majority of people who recycled at CHaRM went alone. A smaller group of people went with their families.
+          </div>
+
+          <div class = "mb-3">
+            More than 50% of the people who visits CHaRM go there once or less times a month. This suggested that we build the application so that it is still useful when the users are not at the facility. This lead us to creating a Fun Facts tab.
+          </div>
+
+          <div class = "mb-3">
+            Around 80% of the people who visit CHaRM use an iOS device. This lead us to focus on creating an iOS application.
+          </div>
+
+          <div class = "mb-3">
+            From the survey results, the ages of people who visit CHaRM ranged from 25 to 74. This suggested that we create an application that is accessible to all people.
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <img src="images/Background/greenWaveTop.png" class = "img-fluid"/>
+
+    <!-- The Solution -->
+    <div class = "greenBackground">
+        <h1 class = "padding-left lightText">
+          THE SOLUTION
+        </h1>
+
+        <div class = "row mt-5">
+            <div class = "center">
+                <p class = "lightText textBox50 mb-5">
+                    My team decided to create an iOS application for CHaRM and its visitors that facilitates this data collection by providing an intuitive user interface for visitors and admin account functionality while providing access to raw data and data visualization features. The application also collects zip code data which will show areas where visitors predominantly travel from. In addition, the application serves as a platform for communication between CHaRM and its visitors, including up-to-date facility closures and information about recycling.
+                </p>
+            </div>
+        </div>
+        <img src="images/Background/blackWaveTop.png" class = "img-fluid" />
+    </div>
+
+    <!-- Digital Prototype -->
+    <div class = "blackBackground">
+        <h1 class = "padding-left lightText">
+          DIGITAL PROTOTYPE
+        </h1>
+
+        <div class = "row mt-5">
+            <div class = "center">
+              <div class = "textBox80 mb-5">
+                <a href = "images/CHaRM/charmprototype.png" target = "_blank">
+                  <img class = "img-fluid" src="images/CHaRM/charmprototype.png" alt="">
+                </a>
+              </div>
+            </div>
+        </div>
+        <img src="images/Background/lightWaveTop.png" class = "img-fluid" />
+    </div>
+
+    <!-- Conclusion -->
+    <div class = "lightBackground">
+        <h1 class = "padding-left">
+          CONCLUSION
+        </h1>
+
+        <div class = "row my-5">
+            <div class = "center">
+              <div class = "textBox50 paragraphFont">
+                <div class = "mb-3">
+                  Throughout this entire project, my team and I learned a lot about working closely with a client in order to create a product that was both feasible for us within the time constraints and had the features that the client wanted. Also, being able to interact with possible users of the application gave me a brand new insight when working on the prototype.
                 </div>
-            </h3>
-            <div>
-                The goal of the survey is to learn more about their experience at CHaRM, such as how often they visit and the types of materials they bring with them to recycle. Knowing the process that they go through every time they visit CHaRM will help us to design our app in such a way that makes the entire process easier and more streamlined.
-            </div>
-            <div class = "break2">
-                We also wanted to know more about user demographics, such as education level and age. This information is important to know when designing our application because their level of education and age may correlate to how comfortable they are with technology and using apps on their phones. Level of education would also inform our decisions of what facts and statistics about recycling we display on the application. Also, if we can identify a trend between education level and the users who come to recycle, it will help us to better identify our primary users. Similarly, knowing their age will also help us gauge our users’ familiarity with technology and how they will interact with the app, while also helping us better identify our primary users.
-            </div>
-        </div>
-        <div class = "col-lg-6 aboutBox">
-            <h3>
-                <img class = "test" src="img/portfolio/thumbnails/result.svg" alt="">
-                <div class = "break1">
-                    Survey Results
+
+                <div class = "mb-3">
+                  Personally, I learned how to change the prototype that I worked on based on the results from user research. This prototype was then used as a reference for the final product.
                 </div>
-            </h3>
-            <div class = "break2">
-                We found out that the majority of people who recycled at CHaRM went alone. A smaller group of people went with their families.
-            </div>
-            <div class = "break2">
-                More than 50% of the people who visits CHaRM go there once or less times a month. This suggested that we build the application so that it is still useful when the users are not at the facility.  This lead us to creating a Fun Facts tab.
-            </div>
-            <div class = "break2">
-                Around 80% of the people who visit CHaRM use an iOS device. This lead us to focus on creating an iOS application.
-            </div>
-            <div class = "break2">
-                From the survey results, the ages of people who visit CHaRM ranged from 25 to 74. This suggested that we create an application that is accessible to all people.
+              </div>
             </div>
         </div>
     </div>
 
-<!-- ********************************* The Solution ******************************** -->
-
-    <hr class = "short"/>
-
-    <h2>
-        The Solution
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            My team decided to create an iOS application for CHaRM and its visitors that facilitates this data collection by providing an intuitive user interface for visitors and admin account functionality while providing access to raw data and data visualization features. The application also collects zip code data which will show areas where visitors predominantly travel from. In addition, the application serves as a platform for communication between CHaRM and its visitors, including up-to-date facility closures and information about recycling.
-        </div>
-    </div>
-
-<!-- ****************************** Digital Prototype ****************************** -->
-
-    <hr class = "short"/>
-
-    <h2>
-        Digital Prototype
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12-img">
-            <a href="img/portfolio/thumbnails/charmprototype.png">
-                <img class = "persona" src="img/portfolio/thumbnails/charmprototype.png">
-            </a>
-        </div>
-    </div>
-
-<!-- ********************************* Conclusion ********************************** -->
-
-    <hr class = "short"/>
-
-    <h2>
-        Conclusion
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            <div>
-                Throughout this entire project, my team and I learned a lot about working closely with a client in order to create a product that was both feasible for us within the time constraints and had the features that the client wanted. Also, being able to interact with possible users of the application gave me a brand new insight when working on the prototype.
-            </div>
-            <div class = "break2">
-                Personally, I learned how to change the prototype that I worked on with Arianna based on the results from user research. This prototype was then used as a reference for the final product.
-            </div>
-        </div>
-    </div>
-
-<!-- ******************************* Bottom of Screen ****************************** -->
-
-    <div class = "container marginBot175">
-        <a class = "buttonHome" href = "index.html">
-            Home
+    <!-- Footer -->
+    <div class = "center">
+        <a class="btn resume mb-5" href="home.html">
+            HOME
         </a>
     </div>
-    <div class = "credits">
-        <i>Icons from <a class = "creditslink" href = "https://icons8.com" target="_blank">icons8</a></i>
-    </div>
-</body>
+  </body>
 
 </html>
-

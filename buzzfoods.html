@@ -1,292 +1,287 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>
+      BuzzFoods
+    </title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>BuzzFoods</title>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+                <a class="nav-link home mr-2" href="home.html">
+                  HOME
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link resume" href = "Ahn_Eugene_Resume.pdf" target="_blank">
+                  RESUME
+                </a>
+            </li>
+        </ul>
+      </div>
+     </nav>
 
-<body>
-
-    <h1>
+    <!-- Title -->
+    <div class = "padding-left padding-top">
+      <h1>
         BuzzFoods
-    </h1>
-
-    <div class = "container marginBot175">
-        <!-- change marginbot175 to marginBot100 if take out button -->
-        <p>
-            Diminishing Leftover Meal Swipes for Georgia Tech Students
-        </p>
-
-        <!-- <br class = "longBreak"> -->
-
-        <!-- <div class = "buttonMargin"> -->
-            <a class = "buttonHome" href = "index.html">
-                Home
-            </a>
-
-<!--         <hr class = "short"/>
-        </div> -->
+      </h1>
+      <p class="title-caption">
+        Diminishing Leftover Meal Swipes for Georgia Tech Students
+      </p>
     </div>
 
-<!-- ********************************** Introduction ******************************* -->
+    <!-- Introduction -->
+    <img src="images/Background/topWave.png" class = "img-fluid" />
 
-    <hr class = "short"/>
+    <div class = "greenBackground">
+        <h1 class = "padding-left lightText">
+          INTRODUCTION
+        </h1>
 
-    <h2>
-        Introduction
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            My team was tasked with finding and solving a problem in the <span class = "emphasize"> sharing economy </span> - a system that will help both producers and consumers receive what they each want.
+      <div class = "row mt-5">
+        <div class = "center">
+          <p class = "lightText textBox50 paragraphFont mb-5">
+              My team for my UI Design course was tasked with finding and solving a problem in the <span class = "emphasize">sharing economy</span> problem space - a system that will help both producers and consumers receive what they each want.
+          </p>
         </div>
+      </div>
+    <img src="images/Background/blackWaveTop.png" class = "img-fluid" />
     </div>
 
-<!-- ********************************** The Problem ******************************** -->
+    <!-- Problem -->
+    <div class = "blackBackground">
+      <h1 class = "padding-left lightText">
+        THE PROBLEM
+      </h1>
 
-    <hr class = "short"/>
-
-    <h2>
-        The Problem
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            <div>
+      <div class = "row my-5">
+          <div class = "center">
+            <div class = "textBox50 paragraphFont lightText">
+              <div class = "mb-3">
                 A lot of students at Georgia Tech purchase meal plans, particularly freshmen, who are required to purchase one. At current rates, freshmen are required to pay <span class = "emphasize">$2,420 per semester</span> for a meal plan. Meal plans consist of a number of meal swipes that expire by the end of the semester.
-            </div>
-            <div class = "break2">
+              </div>
+
+              <div class = "mb-3">
                 Students who are running out of time to use up their remaining meal swipes have few options. Many use their meal swipes at fast food restaurants located on campus. Students also use their meal swipes to buy food for their friends, but they might not have many friends who are not on the meal plan or their friends may also be stuck in the same situation as them.
+              </div>
+
+              <div class = "mb-3">
+                Our goal is to design <span class = "emphasize">a system which will allow students to share meal swipes they don’t plan on using by the end of the semester with other students.</span>
+              </div>
             </div>
-            <div class = "break2">
-                Our goal is to design a <span class = "emphasize">system which will allow students to share meal swipes they don’t plan on using by the end of the semester with other students</span>.
-            </div>
-        </div>
+          </div>
+      </div>
+      <img src="images/Background/lightWaveTop.png" class = "img-fluid"/>
     </div>
 
-<!-- ********************************** User Research ****************************** -->
+    <!-- User Research -->
+    <div class = "lightBackground padding-bottom">
+      <h1 class = "padding-left darkText">
+        USER RESEARCH
+      </h1>
 
-    <hr class = "short"/>
+      <div class = "center">
+        <div class = "textBox50 paragraphFont">
+          <div class = "my-3">
+            <h2>
+              SURVEYS
+            </h2>
+          </div>
 
-    <h2 class = "sectionBox">
-        User Research
-    </h2>
+          <div class = "mb-3">
+            We sent out a survey to our friends at Georgia Tech and also posted it in Georgia Tech Facebook groups. The survey isolated the meal plan participants from non-meal plan participants through a series of conditional questions. As part of the survey we recorded the class standing, gender, and residence area (on or off campus) in the event that statistically significant correlations between any of these factors and meal plan preferences could be found. Because anyone involved in paying for a meal plan is a stakeholder in the problem area, we asked meal plan holders how their meal plan was funded. Similarly, we asked non-meal plan holders if the cost of a meal plan played a part in their decision to not sign up for a meal plan.
+          </div>
 
-    <div class = "row">
-        <div class = "col-lg-6 aboutBox">
-            <h3>
-                <img class = "test" src="img/portfolio/thumbnails/survey.svg" alt="">
-                <div class = "break1">
-                    Surveys
-                </div>
-            </h3>
-            <div>
-                We sent out a survey to our friends at Georgia Tech and also posted it in Georgia Tech Facebook groups. The survey isolated the meal plan participants from non-meal plan participants through a series of conditional questions. As part of the survey we recorded the class standing, gender, and residence area (on or off campus) in the event that statistically significant correlations between any of these factors and meal plan preferences could be found. Because anyone involved in paying for a meal plan is a stakeholder in the problem area, we asked meal plan holders how their meal plan was funded. Similarly, we asked non-meal plan holders if the cost of a meal plan played a part in their decision to not sign up for a meal plan.
-            </div>
-            <div class = "break2">
-                To determine if there was potential to address dissatisfaction on the part of the non-meal plan holding consumers, we asked them to indicate how satisfied they were with their current food arrangements, which could comprise cooking at home, eating out, or some other system. The idea behind this was that respondees who were not satisfied with their current food plans would be more open to changing the way they get their food than someone who doesn’t feel like making any changes.
-            </div>
+          <div class = "mb-3">
+            To determine if there was potential to address dissatisfaction on the part of the non-meal plan holding consumers, we asked them to indicate how satisfied they were with their current food arrangements, which could comprise cooking at home, eating out, or some other system. The idea behind this was that respondees who were not satisfied with their current food plans would be more open to changing the way they get their food than someone who doesn’t feel like making any changes.
+          </div>
+
+          <div class = "my-3">
+            <h2>
+              INTERVIEWS
+            </h2>
+          </div>
+
+          <div class = "mb-3">
+            We interviewed multiple GT students who have and don't have meal swipes. We also interviewed GT Dining Services for their input.
+          </div>
+
+          <div class = "mb-3">
+            We included questions on what students liked and disliked about the meal plan. We asked quantitative questions such as how often they eat at dining halls and how often they have leftover meal swipes by the end of the semester.
+          </div>
+
         </div>
-        <div class = "col-lg-6 aboutBox">
-            <h3>
-                <img class = "test" src="img/portfolio/thumbnails/interview.svg" alt="">
-                <div class = "break1">
-                    Interviews
-                </div>
-            </h3>
-            <div>
-                We interviewed multiple GT students who have and don't have meal swipes.
-            </div>
-            <div class = "break2"><u>Interview questions for those with meal swipes:</u></div>
-            <div class = "break2">
-                <ol>
-                    <li>Why did you sign up for a meal plan?</li>
-                    <li>Do you have meal swipes/money left over the end of the semester?</li>
-                    <ol type = "a">
-                        <li>How do you feel about that?</li>
-                        <li>Have you ever swiped someone into a dining hall?</li>
-                    </ol>
-                <li>Which dining hall do you prefer to visit and why?</li>
-                <li>How often do you eat at a dining hall and why?</li>
-                <li>How else do you take care of your meals when you don’t eat at a dining hall?</li>
-                <li>Do you have any dietary restrictions (allergies, vegetarian, gluten-free, etc)</li>
-                    <ol type = "a">
-                        <li>Do your dietary restrictions influence your food decisions?</li>
-                    </ol>
-                    <li>If you could suggest any changes to the current meal plan structure, what would they be?</li>
-                </ol>
-            </div>
-            <div class = "break2"><u>Interview questions for those without meal swipes</u></div>
-            <div class = "break2">
-                <ol>
-                    <li>Why did you decide not to purchase a meal plan?</li>
-                    <li>Have you eaten at a dining hall before? How was your experience?</li>
-                    <li>Where do you eat the majority of your food?</li>
-                    <li>Are you satisfied with your current food arrangements?</li>
-                        <ol type = "a">
-                            <li>If you could change anything about your current food arrangement, what would it be?</li>
-                        </ol>
-                    <li>Has someone ever shared a meal swipe with you?</li>
-                </ol>
-            </div>
+      </div>
+    </div>
+    <img src="images/Background/greenWaveTop.png" class = "img-fluid"/>
 
-            <div class = "break2"><u>Interview questions for GT Dining Services</u></div>
-            <div class = "break2">
-                <ol>
-                    <li>Have you seen students with meal swipes left over by the end of the semester?</li>
-                    <li>Have you witnessed students swiping other students into the dining halls? How did you respond?</li>
-                    <li>Were you aware that 100% of the meal swipe users have meal swipes left over and 60% of them have swiped other students in based on our survey. What do you think about this?</li>
-                    <li>What could GT Dining services possibly provide to help the students whose meal swipes that are going to waste?</li>
-                </ol>
-            </div>
+    <!-- User Personas -->
+    <div class = "greenBackground">
+      <h1 class = "padding-left lightText">
+        USER PERSONAS
+      </h1>
+      <div class = "row my-5">
+        <div class = "col-lg-6 col-sm-12 center mb-5">
+          <a href = "images/Buzzfoods/producer.png" target="_blank">
+            <img class = "img-fluid img75WhiteBorder" src="images/Buzzfoods/producer.png" >
+          </a>
+          <div class = "captionLight mt-3">
+            Producer
+          </div>
         </div>
+
+        <div class = "col-lg-6 col-sm-12 center mb-5">
+          <a href = "images/Buzzfoods/consumer.png" target="_blank">
+            <img class = "img-fluid img75WhiteBorder" src="images/Buzzfoods/consumer.png">
+          </a>
+          <div class = "captionLight mt-3">
+            Consumer
+          </div>
+        </div>
+
+      </div>
+      <img src="images/Background/blackWaveTop.png" class = "img-fluid"/>
     </div>
 
-<!-- ********************************** User Personas ****************************** -->
+    <!-- Design Criteria -->
+    <div class = "blackBackground">
+      <h1 class = "padding-left lightText">
+        DESIGN CRITERIA
+      </h1>
 
-    <hr class = "short"/>
-
-    <h2>
-        User Personas
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-6 aboutBox">
-            <a href="img/portfolio/thumbnails/producer.png">
-                <img class = "persona" src="img/portfolio/thumbnails/producer.png">
-            </a>
-        </div>
-
-        <div class = "col-lg-6 aboutBox">
-            <a href="img/portfolio/thumbnails/consumer.png">
-                <img class = "persona" src="img/portfolio/thumbnails/consumer.png">
-            </a>
-        </div>
-    </div>
-
-<!-- ********************************* Design Criteria ***************************** -->
-
-    <hr class = "short"/>
-
-    <h2 class = "sectionBox">
-        Design Criteria
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
+      <div class = "center">
+        <div class = "textBox50 paragraphFont lightText">
+          <div class = "mb-3">
             <ol>
+              <div class = "mb-3">
                 <li>
-                    <span class = "emphasize">Convenience</span>: Getting rid of extra meal swipes must be simple to both the providers and the consumers.
+                    <span class = "emphasize">Convenience:</span> Getting rid of extra meal swipes must be simple to both the providers and the consumers.
                 </li>
                 <ul>
                     <li>
-                        <span class = "success">Success</span>: Providers can get rid of their extra meal swipes with minimal steps.
+                        <span class = "success">Success:</span> Providers can get rid of their extra meal swipes with minimal steps.
                     </li>
                     <li>
-                        <span class = "failure">Failure</span>: Consumers have a hard time receiving meal swipes from Providers and vice versa.
+                        <span class = "failure">Failure:</span> Consumers have a hard time receiving meal swipes from Providers and vice versa.
                     </li>
                 </ul>
 
-                <div class = "break2">
+              </div>
+              <div class = "mb-3">
 
-                <li>
-                    <span class = "emphasize">Saving</span>: Providers shouldn’t waste their extra meal swipes.
-                </li>
-                <ul>
-                    <li>
-                        <span class = "success">Success</span>: Providers successfully use all of their meal swipes by the end of the semester.
-                    </li>
-                    <li>
-                        <span class = "failure">Failure</span>: Providers have a lot of meal swipes being wasted at the end of the semester because they couldn’t find a way to use them all.
-                    </li>
-                </ul>
+              <li>
+                  <span class = "emphasize">Saving:</span> Providers shouldn’t waste their extra meal swipes.
+              </li>
+              <ul>
+                  <li>
+                      <span class = "success">Success:</span> Providers successfully use all of their meal swipes by the end of the semester.
+                  </li>
+                  <li>
+                      <span class = "failure">Failure:</span> Providers have a lot of meal swipes being wasted at the end of the semester because they couldn’t find a way to use them all.
+                  </li>
+              </ul>
 
-                </div>
-                <div class = "break2">
+              </div>
+              <div class = "mb-3">
 
-                <li>
-                    <span class = "emphasize">Sharing</span>: Providers should be able to share their extra meal swipes with others, including friends, family, and the homeless.
-                </li>
-                <ul>
-                    <li>
-                        <span class = "success">Success</span>: Providers share their leftover meal swipes with others with no restrictions.
-                    </li>
-                    <li>
-                        <span class = "failure">Failure</span>: Providers are restricted from sharing their extra meal swipes with other people.
-                    </li>
-                </ul>
+              <li>
+                  <span class = "emphasize">Sharing:</span> Providers should be able to share their extra meal swipes with others, including friends, family, and the homeless.
+              </li>
+              <ul>
+                  <li>
+                      <span class = "success">Success:</span> Providers share their leftover meal swipes with others with no restrictions.
+                  </li>
+                  <li>
+                      <span class = "failure">Failure:</span> Providers are restricted from sharing their extra meal swipes with other people.
+                  </li>
+              </ul>
 
-                </div>
+              </div>
             </ol>
+          </div>
+
         </div>
+      </div>
+      <img src="images/Background/lightWaveTop.png" class = "img-fluid"/>
     </div>
 
-<!-- ********************************* The Solution ******************************** -->
+    <!-- Problem -->
+    <div class = "lightBackground">
+      <h1 class = "padding-left">
+        THE PROBLEM
+      </h1>
 
-    <hr class = "short"/>
+      <div class = "row my-5">
+          <div class = "center">
+            <div class = "textBox50 paragraphFont">
+              <div class = "mb-3">
+                In the beginning of this project, we wanted consumers to be able to purchase meal swipes at a much reduced rate from producers. However, after talking with GT Dining services, we learned that Meal swipes are tax-exempt and the person who buys them has tax implications that are non-transferable. However, there are ways to circumvent these rules without breaking them, i.e, limiting the amount of meal swipes one can donate.
+              </div>
 
-    <h2>
-        The Solution
-    </h2>
+              <div class = "mb-3">
+                With this in mind, we modified the donation solution to limit the number of swipes the users can donate. The swipes they donate are part of a “Guest Meal Plan Swipe,” which are swipes specifically set aside for donating. They will receive a set number each semester. Based on the feedback from our user research, we decided to go with a phone application for the solution.
+              </div>
 
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            In the beginning of this project, we wanted consumers to be able to purchase meal swipes at a much reduced rate from producers. However, after talking with GT Dining services, we learned that Meal swipes are tax-exempt and the person who buys them has tax implications that are non-transferable. However, there are ways to circumvent these rules without breaking them, i.e, limiting the amount of meal swipes one can donate. With this in mind, we modified the donation solution to limit the number of swipes the users can donate. The swipes they donate are part of a “Guest Meal Plan Swipe,” which are swipes specifically set aside for donating. They will receive a set number each semester. Based on the feedback from our user research, we decided to go with a phone application for the solution. This solution satisfies the requirements for all three parties(consumers, providers, and GT Dining services) involved and the design criterias. This app would <span class = "emphasize">allow Georgia Tech students to sign in with their credentials and send meal swipes to their friends, donate to a shelter, or cater for personal events</span>.
-        </div>
-    </div>
-
-<!-- ****************************** LowFi Prototype ******************************** -->
-
-    <hr class = "short"/>
-
-    <h2>
-        Low-Fidelity Prototype
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12-img">
-            <a href="img/portfolio/thumbnails/buzzfoodprototype.png">
-                <img class = "persona" src="img/portfolio/thumbnails/buzzfoodprototype.png">
-            </a>
-        </div>
-    </div>
-
-<!-- ********************************* Conclusion ********************************** -->
-
-    <hr class = "short"/>
-
-    <h2 class = "sectionBox">
-        Conclusion
-    </h2>
-
-    <div class = "row">
-        <div class = "col-lg-12 textBox">
-            <div>
-                Our team realized that the issues regarding leftover meal swipes was a rampant issue in the Georgia Tech community. We listened to all sides of the problem space and implemented features into our application that satisfies everyone.
+              <div class = "mb-3">
+                This solution satisfies the requirements for all three parties(consumers, providers, and GT Dining services) involved and the design criterias. This app would <span class = "emphasizePurple">allow Georgia Tech students to sign in with their credentials and send meal swipes to their friends, donate to a shelter, or cater for personal events.</span>
+              </div>
             </div>
-            <div class = "break2">
-                If we were to do this project all over again, we would focus on the legal issues that we weren’t able to completely solve for our sharing economy. In the beginning, we weren't aware that students are not allowed to share swipes with one another. As we delved deeper into our problem space, we talked to GT Dining Services later in our project. However, if we were given the opportunity again, knowing the extremity of the problem, we would have gone to the GT Dining Services earlier and asked for their participation in ideas so that this solution could actually be made available for GT students.
+          </div>
+      </div>
+      <img src="images/Background/greenWaveTop.png" class = "img-fluid"/>
+    </div>
+
+    <!-- Low Fidelity Prototype -->
+    <div class = "greenBackground">
+        <h1 class = "padding-left lightText">
+          LOW FIDELITY PROTOTYPE
+        </h1>
+
+        <div class = "row mt-5">
+            <div class = "center">
+              <div class = "textBox80 mb-5">
+                <a href = "images/Buzzfoods/buzzfoodprototype.png" target = "_blank">
+                  <img class = "img-fluid" src="images/Buzzfoods/buzzfoodprototype.png" alt="">
+                </a>
+              </div>
             </div>
         </div>
+        <img src="images/Background/lightWaveTop.png" class = "img-fluid" />
     </div>
 
-<!-- ******************************* Bottom of Screen ****************************** -->
-
-    <!-- <hr class = "short"/> -->
-
-    <!-- <div class = "longBreak"/> -->
-
-    <div class = "container marginBot175">
-        <a class = "buttonHome" href = "index.html">
-            Home
+    <!-- Conclusion -->
+    <div class = "lightBackground">
+      <h1 class = "padding-left">
+        CONCLUSION
+      </h1>
+      <div class = "row my-5">
+        <div class = "center">
+          <div class = "textBox50 paragraphFont">
+            <div class = "mb-3">
+              Our team realized that the issues regarding leftover meal swipes was a rampant issue in the Georgia Tech community. We listened to all sides of the problem space and implemented features into our application that satisfies everyone.
+            </div>
+            <div class = "mb-3">
+              If we were to do this project all over again, we would focus on the legal issues that we weren’t able to completely solve for our sharing economy. In the beginning, we weren't aware that students are not allowed to share swipes with one another. As we delved deeper into our problem space, we talked to GT Dining Services later in our project. However, if we were given the opportunity again, knowing the extremity of the problem, we would have gone to the GT Dining Services earlier and asked for their participation in ideas so that this solution could actually be made available for GT students.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class = "center">
+        <a class="btn resume mb-5" href="home.html">
+            HOME
         </a>
     </div>
-    <div class = "credits">
-        <i>Icons from <a class = "creditslink" href = "https://icons8.com" target="_blank">icons8</a></i>
-    </div>
-</body>
+  </body>
 
 </html>
-
