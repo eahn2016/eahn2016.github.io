@@ -11,31 +11,33 @@ body {
 }
 
 h1 {
-  font-family: 'Caveat Brush', cursive;
-  font-size: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
 }
 
 h2 {
-  font-family: "Caveat Brush", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 2;
 }
 
 .paragraphFont {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 2;
 }
 
 .btn {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -44,12 +46,12 @@ p {
 }
 
 .project-name {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
 .caption {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -74,7 +76,7 @@ p {
 }
 
 .title-caption {
-  font-family: 'Caveat', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 }
 
@@ -104,7 +106,7 @@ p {
 
 .navbar {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   margin-right: 2%;
   margin-top: 2%;
@@ -197,7 +199,6 @@ p {
 
 .emphasize {
   color: #F9C784;
-  /*font-weight: 700;*/
 }
 
 .emphasizePurple {
@@ -214,7 +215,7 @@ p {
 
 .captionLight {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   font-style: italic;
   color: #E0F2E9;
@@ -222,7 +223,7 @@ p {
 
 .captionBlack {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   font-style: italic;
   color: #292F36;
