@@ -296,3 +296,8 @@ ins {
   image-rendering: -webkit-optimize-contrast;
   -ms-interpolation-mode: nearest-neighbor;
 }
+
+.imgDown {
+  position: relative;
+  top: 2px;
+}
